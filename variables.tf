@@ -53,7 +53,7 @@ variable "azure_db_subnet_l2" {
 }
 
 variable "azure_db_vm_size_l2" {
-  default = "Standard_D2s_v3"
+  default = "Standard_DS2_v2"
 }
 
 variable "azure_db_vm_sku_l2" {
@@ -65,7 +65,7 @@ variable "azure_app_subnet_l2" {
 }
 
 variable "azure_app_vm_size_l2" {
-  default = "Standard_D2s_v3"
+  default = "Standard_DS2_v2"
 }
 
 variable "azure_app_vm_sku_l2" {
